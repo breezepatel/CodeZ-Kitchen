@@ -1,0 +1,23 @@
+.name{
+    font-family: cursive;
+    color: #bb9951;
+    font-weight: bolder;
+}
+
+.navbar-brand:hover{
+    color: #bb9951;
+}
+.navbar-light{
+    background-color: black;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    font-family: cursive;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    font-family: cursive;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
